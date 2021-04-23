@@ -4,12 +4,19 @@
   "description": "testando api RESTful",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
   },
   "author": "athena",
   "license": "ISC",
   "keywords": [
     "RESTful",
     "api"
-  ]
+  ],
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
