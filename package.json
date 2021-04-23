@@ -1,0 +1,15 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "testando api RESTful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "athena",
+  "license": "ISC",
+  "keywords": [
+    "RESTful",
+    "api"
+  ]
+}
